@@ -1,0 +1,66 @@
+:root{
+    --titulo-principal: #fd1e7b ;
+    --titulo-secundario:#281817;
+    --cor-fundo:#fbcce3;
+    --cor-botao:#ffffff;
+}
+body{
+    background-color: var(--cor-fundo);
+}
+
+h1{
+    color: var(--titulo-principal);
+}
+
+.imagem-1{
+    width: 240px;
+    height: 240px;
+}
+
+.imagem-2{
+    width: 340px;
+    height: 340px;
+}
+
+.principal{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzbMqvR9htaWnFrILkPdoXo7C1ZU0UwJe4bw&s);
+    background-repeat: no-repeat;
+}
+
+/*copiei do script.js*/
+
+:root {
+    --titulo-principal: #8d451e;
+    --cor-fundo: #ee7aee;
+    --cor-botao: #1d0205;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: var(--cor-fundo);
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--titulo-principal);
+    font-size: 10.5em; /* Aumentar tamanho do título */
+}
+header {
+    margin: 20px;
+}
+
+button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 30px 40px; 
+    font-size: 25px; 
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffd700;
+}
